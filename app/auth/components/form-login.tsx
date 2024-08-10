@@ -21,7 +21,7 @@ const LoginForm = () => {
                         <input type="text" name="password" onChange={() => { }} className="border rounded w-fit p-3" />
                     </div>
                     {error && <span className="text-rede-400 text-sm block mt-2 ">{error}</span>}
-                    <button type="submit" className="mt-10 br-rose-950 text-slate-50 p-3 rounded"></button>
+                    <button type="submit" className="mt-10 br-rose-950 text-slate-50 p-3 rounded">Entrar</button>
                 </div>
             </form>
         </div>
