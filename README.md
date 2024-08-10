@@ -16,3 +16,6 @@
 
 ### Criar rotas públicas e privadas - pasta app
 ### Rotas api - pasta app -> api/auth/[...nextauth]/route.js
+### componente header
+### criar midlleware na raiz
+
