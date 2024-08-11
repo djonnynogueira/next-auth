@@ -1,14 +1,13 @@
 'use client'
 
-import { signOut } from "next-auth/react";
-import Link from "next/link";
+import { signOut } from "next-auth/react"
 
-export default function SignOutButton() {
-    return (
-        <div>
+interface SignOutButtonProps {
+  children: React.ReactNode
+}
 
-            <button onClick={() => signOut()}>sair</button>
-
-        </div>
-    )
+export const SignOutButton = ({ children }: SignOutButtonProps) => {
+  return (
+    <button onClick={() => signOut()}>{children}</button>
+  )
 }
