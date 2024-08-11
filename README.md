@@ -1,6 +1,6 @@
 # Projeto - Autenticação e Autorização com Next.js, Next-Auth e Typescript com base no "Role" do usuário
 
-##
+## 
 
 ### :::::::
 - npx create-next-app@latest
@@ -19,3 +19,4 @@
 ### componente header
 ### criar midlleware na raiz
 
+### https://github.com/dracoalv/next-auth-yt
